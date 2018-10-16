@@ -90,5 +90,5 @@ data_zhengzhou = [
     ["郑州", "台州"]
 ]
 geolines = GeoLines("郑州机场航线图", **style.init_style)
-geolines.add("从郑州出发", data_zhengzhou, maptype='world', is_legend_show=False, **style_geo)
+geolines.add("从郑州出发", data_zhengzhou, maptype='china', is_legend_show=False, **style_geo)
 geolines.render()
